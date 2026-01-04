@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/ANIS%20LAMAR%20KERJA%20AGUSTUS%202024/Program%20Web/my-next-app/src/app/about/page.js"],"sourcesContent":["'use client'\r\nconst About = () => {\r\n  return (\r\n    <div className=\"text-amber-300\">About</div>\r\n  )\r\n}\r\n\r\nexport default About\r\n\r\n"],"names":[],"mappings":";;;;;AAAA;;AACA,MAAM,QAAQ;IACZ,qBACE,8OAAC;QAAI,WAAU;kBAAiB;;;;;;AAEpC;uCAEe"}}]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/ANIS%20LAMAR%20KERJA%20AGUSTUS%202024/Program%20Web/my-next-app/src/app/page.js"],"sourcesContent":["'use client'\nconst Home = () => {\n  return (\n    <div className=\"text-red-800\">Home</div>\n  )\n}\n\nexport default Home\n\n"],"names":[],"mappings":";;;;;AAAA;;AACA,MAAM,OAAO;IACX,qBACE,8OAAC;QAAI,WAAU;kBAAe;;;;;;AAElC;uCAEe"}},
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///D:/ANIS%20LAMAR%20KERJA%20AGUSTUS%202024/Program%20Web/my-next-app/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}
