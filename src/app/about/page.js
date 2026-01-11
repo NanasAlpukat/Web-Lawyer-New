@@ -1,3 +1,26 @@
+export const metadata = {
+  title: "About Us",
+  description:
+    "Mengenal Kareem Law Firm — firma hukum mandiri yang berfokus pada layanan hukum yang profesional, etis, dan berorientasi solusi.",
+  keywords: [
+    "tentang law firm",
+    "profil pengacara",
+    "firma hukum indonesia",
+  ],
+  openGraph: {
+    title: "About Kareem Law Firm",
+    description:
+      "Komitmen kami terhadap integritas, profesionalisme, dan keadilan.",
+    url: "https://kareem-law-firm.vercel.app/about",
+  },
+};
+
+export default function About() {
+  // konten about
+}
+
+
+
 import Image from "next/image";
 
 export default function About() {

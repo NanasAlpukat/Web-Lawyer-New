@@ -1,4 +1,23 @@
+export const metadata = {
+  title: "Contact Us",
+  description:
+    "Hubungi Kareem Law Firm untuk konsultasi hukum profesional dan rahasia. Tersedia konsultasi via email dan WhatsApp.",
+  keywords: [
+    "kontak pengacara",
+    "konsultasi hukum",
+    "hubungi law firm",
+    "pengacara indonesia",
+  ],
+  openGraph: {
+    title: "Contact Kareem Law Firm",
+    description:
+      "Konsultasi hukum profesional dan independen. Seluruh informasi dijamin kerahasiaannya.",
+    url: "https://kareem-law-firm.vercel.app/contact",
+  },
+};
+
 "use client";
+
 
 import { useState } from "react";
 import emailjs from "@emailjs/browser";

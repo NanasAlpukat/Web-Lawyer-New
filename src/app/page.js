@@ -1,3 +1,25 @@
+export const metadata = {
+  title: "Professional Legal Advisory",
+  description:
+    "Kareem Law Firm adalah firma hukum independen yang memberikan solusi hukum strategis dengan integritas dan profesionalisme.",
+  keywords: [
+    "law firm",
+    "pengacara profesional",
+    "konsultan hukum indonesia",
+  ],
+  openGraph: {
+    title: "Kareem Law Firm",
+    description:
+      "Justice. Integrity. Results. Solusi hukum yang dapat Anda percayai.",
+    url: "https://kareem-law-firm.vercel.app",
+  },
+};
+
+export default function Home() {
+  // konten home
+}
+
+
 import Image from "next/image";
 
 export default function Home() {
