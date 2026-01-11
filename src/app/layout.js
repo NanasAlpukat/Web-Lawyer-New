@@ -1,6 +1,7 @@
 import "../styles/css.css";
 import MobileNavbar from "../components/mobile/MobileNavbar";
 import DesktopNavbar from "../components/desktop/DesktopNavbar";
+import Footer from "../components/footer/Footer";
 
 export default function RootLayout({ children }) {
   return (
@@ -16,7 +17,8 @@ export default function RootLayout({ children }) {
           <MobileNavbar />
         </div>
 
-        <main className="pt-16">{children}</main>
+        <main className="pt-[90px]">{children}</main>
+        <Footer />
       </body>
     </html>
   );
