@@ -1,29 +1,26 @@
+import Image from "next/image";
+
 export const metadata = {
-  title: "About Us",
+  title: "About Us | Kareem Law Firm",
   description:
     "Mengenal Kareem Law Firm — firma hukum mandiri yang berfokus pada layanan hukum yang profesional, etis, dan berorientasi solusi.",
   keywords: [
     "tentang law firm",
     "profil pengacara",
     "firma hukum indonesia",
+    "kareem law firm",
   ],
   openGraph: {
     title: "About Kareem Law Firm",
     description:
       "Komitmen kami terhadap integritas, profesionalisme, dan keadilan.",
     url: "https://kareem-law-firm.vercel.app/about",
+    siteName: "Kareem Law Firm",
+    type: "website",
   },
 };
 
-export default function About() {
-  // konten about
-}
-
-
-
-import Image from "next/image";
-
-export default function About() {
+export default function AboutPage() {
   return (
     <section className="bg-neutral-950 text-white">
 
@@ -31,7 +28,7 @@ export default function About() {
       <div className="relative w-full h-[420px] flex items-center">
         <Image
           src="/assets/bg2.png"
-          alt="About Background"
+          alt="About Kareem Law Firm"
           fill
           className="object-cover"
           priority
@@ -90,9 +87,7 @@ export default function About() {
 
           <div className="grid md:grid-cols-3 gap-10">
             <div className="bg-neutral-900 p-8 rounded-2xl border border-neutral-800">
-              <h3 className="font-semibold text-lg mb-3">
-                Integrity
-              </h3>
+              <h3 className="font-semibold text-lg mb-3">Integrity</h3>
               <p className="text-neutral-400 text-sm leading-relaxed">
                 Every legal opinion and action is grounded in honesty,
                 ethical standards, and professional accountability.
@@ -100,9 +95,7 @@ export default function About() {
             </div>
 
             <div className="bg-neutral-900 p-8 rounded-2xl border border-neutral-800">
-              <h3 className="font-semibold text-lg mb-3">
-                Independence
-              </h3>
+              <h3 className="font-semibold text-lg mb-3">Independence</h3>
               <p className="text-neutral-400 text-sm leading-relaxed">
                 We maintain independent judgment, free from conflicts
                 of interest, ensuring objective and responsible advice.
@@ -110,9 +103,7 @@ export default function About() {
             </div>
 
             <div className="bg-neutral-900 p-8 rounded-2xl border border-neutral-800">
-              <h3 className="font-semibold text-lg mb-3">
-                Discretion
-              </h3>
+              <h3 className="font-semibold text-lg mb-3">Discretion</h3>
               <p className="text-neutral-400 text-sm leading-relaxed">
                 Client confidentiality and sensitive information are
                 handled with the highest level of care and respect.
@@ -121,7 +112,7 @@ export default function About() {
           </div>
         </section>
 
-        {/* SERVICES OVERVIEW */}
+        {/* SERVICES */}
         <section className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="bg-neutral-900 rounded-2xl p-10 border border-neutral-800">
             <h3 className="text-xl font-semibold mb-4">

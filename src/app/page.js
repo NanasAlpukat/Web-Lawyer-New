@@ -15,9 +15,6 @@ export const metadata = {
   },
 };
 
-export default function Home() {
-  // konten home
-}
 
 
 import Image from "next/image";
